@@ -1,0 +1,88 @@
+
+    .label {
+      font-size: 20px;
+      font-family: inherit;
+    }
+
+    .description {
+      margin: 0px;
+      height: 110px;
+      resize: none;
+      font-size: 20px;
+      font-family: initial;
+    }
+
+    #submit {
+      background-color: #4CAF50;
+      font-size: 16px;
+      color: white;
+      padding: 3px 129px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 28px;
+    }
+
+    .comment {
+      background-color: rgba(237, 237, 221, 0.78);
+      height: 250px;
+      overflow-y: scroll;
+    }
+
+    .detail {
+      background: rgb(255, 253, 186);
+      margin-top: 5%;
+      margin-left: 12px;
+      min-width: 88%;
+      min-height: 72px;
+      font-size: 20px;
+      font-family: initial;
+      border-radius: 8px;
+      color: #080808;
+      padding: 10px;
+      box-shadow: 4px 23px 42px -20px rgba(0, 0, 0, 0.54);
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    #stickNotesDiv {
+      height: 727px;
+    }
+
+    .show_page_number {
+      border-radius: 263px;
+      height: 148px;
+      width: 138px;
+      padding: 90px;
+      margin: 0px;
+      padding-left: 43px !important;
+      color: white;
+      background-color: #399bff;
+      font-size: 50px;
+      margin-top: 60px;
+      margin-left: 100px;
+    }
+
+    .title {
+      font-size: 28px !important;
+      margin-left: -176px;
+    }
+
+    .blink {
+
+      animation: blink 1s infinite;
+    }
+
+    .footer {
+      margin-top: 400px;
+    }
