@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="public">
+    <title>Admin Dashboard</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/banner-image/favicon (1).ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="css/bannerpage/bootstrape.css" rel="stylesheet">
+    <!-- FONTAWESOME STYLES-->
+    <link href="css/bannerpage/awesome.css" rel="stylesheet">
+    <!-- CUSTOM STYLES-->
+    <link href="css/bannerpage/custom.css" rel="stylesheet">
+    <!-- GOOGLE FONTS-->
+    <link href="css/bannerpage/googleaps.css" rel="stylesheet" type="text/css">
+
+    <link href="css/dashboard/root.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bannerpage/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/bannerpage/start-top.css">
+
+    <style>
+        .cke {
+            visibility: hidden;
+        }
+    </style>
+
+    <style type="text/css">
+        #main-menu {
+            height: 600px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+
+
+    <!-- START TOP -->
+    
+    <div id="top" class="clearfix">
+
+        <!-- Start App Logo -->
+        <div class="applogo">
+            <a href="#">
+                <img src="images/banner-image/logo.png">
+            </a>
+        </div>
+        <!-- End App Logo -->
+
+        <!-- Start Sidebar Show Hide Button -->
+        <a href="#" class="sidebar-open-button"><i class="fa fa-bars"></i></a>
+        <a href="#" class="sidebar-open-button-mobile"><i class="fa fa-bars"></i></a>
+        <!-- End Sidebar Show Hide Button -->
+
+        <span style="margin-top: 20px!important;font-size: 17px;margin-left: 560px;">anuradha.sarkar48@gmail.com (Super
+            Admin)</span>
+        <div class="dropdown">
+            <button class="dropbtn">Action</button>
+            <div class="dropdown-content">
+
+                <a href="#"><span class="icon color6">
+                        <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
+                    </span>User Rights</a>
+
+                <a href="http://staging.gotoassignmenthelp.com/admin/user-cms-change-password.php"><span
+                        class="icon color6">
+                        <!-- <i class="fa fa-lock"></i> -->
+                    </span>Change Password</a>
+                <a href="#"><span class="icon color6">
+                        <!-- <i class="fa fa-user"></i> -->
+                    </span>logout</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- END TOP -->
+    <div id="col-md-3" class="col-md-2">
+        <!-- <nav class="navbar-default navbar-side" role="navigation"> -->
+        <div class="sidebar clearfix">
+            <ul class="sidebar-panel nav">
+
+                <!-- <li><a href="#"><span class="icon color6"><i class="fa fa-file-text"></i></span>Inner Pages</a></li>
+                        -->
+                <li>
+                    <a href="#"><span
+                            class="icon color6"><i class="fa fa-dashboard" aria-hidden="true"></i></span>Dashboard</a>
+                </li>
+                <li><a href="#"><span
+                            class="icon color6"><i class="fa fa-bars" aria-hidden="true"></i></span><span class="badge"
+                            style="color: #a7ff21;">Page Edit Request ( 0 )</span></a></li>
+                <li><a href="#"><span class="icon color6"><i
+                                class="fa fa-file-text"></i></span>All Pages</a></li>
+
+
+
+                <li><a href="#"><span
+                            class="icon color6"><i class="fa fa-tasks" aria-hidden="true"></i></span>Category</a></li>
+
+                <li><a href="#"><span
+                            class="icon color6"><i class="fa fa-newspaper-o" aria-hidden="true"></i></span> Page
+                        Banner</a></li>
+                <li>
+
+
+                </li>
+                <li><a href="#"><span
+                            class="icon color6"><i class="fa fa-tasks" aria-hidden="true"></i></span>Testimonial</a>
+                </li>
+                <li>
+                    <a href="#"><span
+                            class="icon color6"><i class="fa fa-trash" aria-hidden="true"></i></span>Trash Page</a>
+                </li>
+                <li><a href="#"><span class="icon color6"><i class="fa fa-bars"></i></span>Question &amp; Free
+                        Sample<span class="caret"></span></a>
+
+                    <ul>
+                        <li>
+                            <a href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>Add
+                                Category</a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>View
+                                All Category</a>
+                        </li>
+                        <li>
+                            <a href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>Add
+                                Question</a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>View
+                                Question Details</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span
+                            class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>Home Page
+                        Content Change</a>
+                </li>
+
+                <li><a href="#"><span class="icon color6"><i class="fa fa-bars"></i></span>Experts on site<span
+                            class="caret"></span></a>
+
+                    <ul>
+                        <li>
+                            <a href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>Add
+                                Expert Details</a>
+                        </li>
+                        <li>
+                            <a href="#"><span
+                                    class="icon color6"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>View
+                                Expert Details</a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+
+        </div>
+
+        <!--  </nav> -->
+    </div>
+    <!-- /. NAV SIDE  -->
+    <style>
+        .page-header {
+            background: #fff;
+            margin: 17px -30px 20px -30px !important;
+            padding: 36px !important;
+            border-bottom: none;
+            position: relative;
+        }
+    </style>
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START CONTENT -->
+    <div class="content" style="min-height:900px;">
+        <div class="page-header">
+            <!-- Start Page Header -->
+            <div class="right">
+
+                <div class="btn-group" role="group" aria-label="...">
+
+                </div>
+                <div class="btn-group" role="group" aria-label="...">
+
+                    <a href="#"
+                        class="btn btn-success">Create New Page</a>
+
+                    <a href="#"
+                        class="btn btn-success">Add Testimonial</a>
+                    <!-- <a href="http://staging.gotoassignmenthelp.com/admin/page-add-edit-sidebar.php" class="btn btn-success">Add Side Bar</a> -->
+                    <a href="#"
+                        class="btn btn-success">Add Category</a>
+                    <a href="#"
+                        class="btn btn-success">Add Banner</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Header -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START CONTAINER -->
+        <div class="container-widget">
+
+            <!-- Start Top Stats -->
+            <div class="col-md-12">
+
+            </div>
+            <!-- End Top Stats -->
+
+
+            <!-- Start First Row -->
+            <div class="row">
+                <form method="post" id="add_bg_img_form" name="add_bg_img_form"
+                    onsubmit="return ajax_submit_form('add_bg_img_form','ajax-create-inner-page.php',' ')">
+
+
+
+                    <!-- //////////////////////////  Section add Testimonial start  /////////////////////////////////////// -->
+                    <div class="col-md-12 col-lg-12">
+
+                        <div class="panel panel-default">
+
+                            <div class="panel-title">
+                                Add Page Banner Image
+                                <ul class="panel-tools">
+                                    <li><a class="icon minimise-tool"><i class="fa fa-minus"></i></a></li>
+                                    <li><a class="icon expand-tool"><i class="fa fa-expand"></i></a></li>
+                                    <!--<li><a class="icon closed-tool"><i class="fa fa-times"></i></a></li>-->
+                                </ul>
+                            </div>
+                            <!-- <div class="form-group col-md-12 col-lg-12">
+                
+                 <label for="name"  class="form-label"> Select Page:</label>
+                 <select  class="col-md-12 btn dropdown-toggle selectpicker btn-option2" id="category" name="category" required >
+                   <option> Select Category</option>
+                    <option></option>
+                 </select>
+              </div> -->
+
+                            <div class="panel-body">
+                                <div class="form-group col-md-3 col-lg-3">
+                                    <label for="input3" class="form-label">Banner Image:</label>
+                                    <input type="file" class="col-md-12 btn dropdown-toggle selectpicker btn-primary"
+                                        id="bg_image" name="bg_image" required="">
+                                </div>
+
+                                <div class="form-group col-md-2 col-lg-2">
+
+                                    <label for="name" class="form-label">Banner Image Alt:</label>
+                                    <input type="text" class="form-control" id="bg_image_alt" name="bg_image_alt"
+                                        required="">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="form-group col-md-3 col-lg-3">
+                                    <label for="input3" class="form-label">Order Form Image:</label>
+                                    <input type="file" class="col-md-12 btn dropdown-toggle selectpicker btn-primary"
+                                        id="side_image" name="side_image" required="">
+                                </div>
+                                <div class="form-group col-md-2 col-lg-2">
+
+                                    <label for="mail" class="form-label">Order Form Image Alt:</label>
+                                    <input type="text" class="form-control" id="side_image_alt" name="side_image_alt"
+                                        required="">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="form-group col-md-3 col-lg-3">
+                                    <label for="input3" class="form-label">Right Side Bar Image:</label>
+                                    <input type="file" class="col-md-12 btn dropdown-toggle selectpicker btn-primary"
+                                        id="side_botom_image" name="side_botom_image" required="">
+                                </div>
+                                <div class="form-group col-md-3 col-lg-3">
+
+                                    <label for="mail" class="form-label">Right Side Bar Image Alt:</label>
+                                    <input type="text" class="form-control" id="side_botom_image_alt"
+                                        name="side_botom_image_alt" required="">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="form-group col-md-3 col-lg-3">
+
+                                    <label for="mail" class="form-label">Banner Status:</label>
+                                    <br>
+                                    <!-- <select type="text" class="form-control" id="bg_image_status"
+                                        name="bg_image_status"> -->
+                                      <input type="radio" name="status" value="0">
+                                      <label>ACTIVE</label>
+
+                                      <input type="radio" name="status" value="1">
+                                      <label>DEACTIVE</label>
+
+                                    <!-- <option value="1">ACTIVE</option>
+                                        <option value="0">DEACTIVE</option> -->
+                                    <!-- </select> -->
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+
+                                    <input type="submit" class="btn btn-default" id="authorPicture" name="authorPicture"
+                                        value="Add">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- ////////////////////  Section add Testimonial end here   ////////////////////////////// -->
+
+
+                        <!-- ////////////////////  Section add Side bar end here   ////////////////////////////// -->
+
+                        <!-- //////////////////////////  Section add Side Bar start  /////////////////////////////////////// -->
+
+
+                        <div class="col-lg-12 col-md-12 table-responsive">
+
+
+
+                            <div id="example0_wrapper" class="dataTables_wrapper no-footer">
+                                
+
+
+                            </div>
+
+                            <!-- ////////////////////  Section add Side bar end here   ////////////////////////////// -->
+
+                        </div>
+                </form>
+
+            </div>
+        </div>
+        <!-- End First Row -->
+    </div>
+
+
+    <!-- End Content -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center;">
+                Copyright © GotoAssignmentHelp.com 2022 </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#example0').DataTable();
+            $('#example01').DataTable();
+            $('#example02').DataTable();
+            $('#example03').DataTable();
+            $('#example04').DataTable();
+            $('#example05').DataTable();
+
+        });
+    </script>
+
+    <!-- Mirrored from egemem.com/theme/kode/v1.1/data-table.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Jan 2016 18:52:48 GMT -->
+
+    <script>
+        $("button").click(function () {
+            $.post("demo_test_post.asp",
+                {
+                    name: "Donald Duck",
+                    city: "Duckburg"
+                },
+                function (data, status) {
+                    alert("Data: " + data + "\nStatus: " + status);
+                });
+        });
+    </script>
+
+
+    <!-- Mirrored from egemem.com/theme/kode/v1.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Jan 2016 18:52:09 GMT -->
+</body>
+<footer>
+
+    <script src="javascript/banner-js/ckeditor.js"></script>
+
+    <!-- ============================================================= -->
+    <script src="javascript/banner-js/jquery.min.js"></script>
+    <script src="javascript/banner-js/jquery-ui.min.js"></script>
+    <script src="javascript/banner-js/jquery-timepicker.js"></script>
+
+    <script src="javascript/banner-js/datafield-type.js"></script>
+    <script src="javascript/banner-js/datafield-type2.js"></script>
+
+    <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="javascript/banner-js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="javascript/banner-js/bootstrap.min.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="javascript/banner-js/custom.js"></script>
+    <script src="javascript/banner-js/application.js"></script>
+
+    <!-- ================================================
+jQuery Library
+================================================ -->
+    <script type="text/javascript" src="javascript/banner-js/jquery.min2.js"></script>
+
+    <!-- ================================================
+Bootstrap Core JavaScript File
+================================================ -->
+    <script src="javascript/banner-js/bootstrap.min2.js"></script>
+
+    <!-- ================================================
+Plugin.js - Some Specific JS codes for Plugin Settings
+================================================ -->
+    <script type="text/javascript" src="javascript/banner-js/plugins.js"></script>
+
+    <!-- ================================================
+Data Tables
+================================================ -->
+    <script src="javascript/banner-js/datatables.min.js"></script>
+
+
+    <script src="javascript/banner-js/inc_ajax_functions.js"></script>
+
+    <script src="javascript/banner-js/order-by-grouping.js"></script>
+</footer>
+
+</html>
